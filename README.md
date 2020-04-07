@@ -16,7 +16,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Docker build
 
-Run `docker build . --file docker/Dockerfile --tag hello-spa:$(date +%s)` to build application using docker
+Run `docker build . --file docker/Dockerfile --tag hello-spa:$(date +%s)` to build application using docker.  
 It produces a docker image with exposed port `80`, where application content is served.
 
 ## Running unit tests
